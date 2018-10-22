@@ -17,9 +17,11 @@
 
     JAWABAN :
     Algoritma :
-    1. tambah dan simpan massa benda(kg) dengan angka berapapun
-    2. tambah dan simpan percepatan benda (m/s2) dengan angka berapapun
-    3. hitung 
+    1. TAMBAH dan SIMPAN " massa benda(kg)" dengan angka berapapun
+    2. TAMBAH dan SIMPAN "percepatan benda (m/s2)" dengan angka berapapun
+    3. TAMBAH dan SIMPAN "hasil" (hasil dari masa benda(kg) * percepatan benda(m/s2))
+    3. KALIKAN "masa benda(kg)" dengan "massa percepatan benda(M/S2)"
+    4. TAMPILKAN "hasil"   
 
     Pseudocode :
     - store "masa benda (kg)"
@@ -60,10 +62,11 @@
 
      1. Masukkan tahun
      2. lakukan pembagian tahun 
-     3. jika tahun habis dibagi 4 (tahun dibagi 4 = 0) dan tidak habis dibagi 100 (tahun dibagi 	100!= 0)
+     3. jika tahun habis dibagi 4 (tahun dibagi 4 = 0) dan tidak habis dibagi 100 (tahun dibagi 100!= 0)
         maka tampilkan bukan tahun kabisat
      4. jika tahun habis dibagi 4 (tahun dibagi 4 = 0), habis dibagi 100 (tahun dibagi 100 = 0) 
         dan habis dibagi 400 (tahun habis dibagi 400 = 0) maka tampilkan tahun kabisat.
+     5. selesai.
      
 
 
@@ -76,7 +79,7 @@
     Bantulah Foxie untuk menghitung jumlah pakaian yang akan dimasukkan ke mesin cuci menggunakan
      algoritma & pseudocode perulangan!
 
-JAWABAN :
+    JAWABAN :
 
      PSEUDOCODE :
 
@@ -91,7 +94,8 @@ JAWABAN :
      2. lakukan perulangan di step 3 selama "pakaian" masih dibawah 20. jika "pakaian" sudah 20 ,
         maka lanjut ke step 4.
      3. tambah "pakaian" satu persatu agar semakin mendekati batas perulangan. kembali ke step 2
-     4. kemudian tampilkan "nyalakan mesin cuci" untuk mencuci pakaian yang sudah mencapai 20 		tadi. 
+     4. kemudian tampilkan "nyalakan mesin cuci" untuk mencuci pakaian yang sudah mencapai 20 tadi.
+     5. selesai 
 
 
 4. Periksa Kuku
@@ -113,7 +117,8 @@ JAWABAN :
 
 
     ALGORITMA :
-    1. guru memeriksa kuku murid satu persatu.
-    2. jika murid memiliki kuku panjang, maka guru akan menghukumnya.
-    3. jika murid memiliki kuku yang tidak panjang, maka guru akan memujinya.
-    4. pemeriksaan kuku selesai.
+    1. simpan nilai "murid" dengan angka 0
+    2. lakukan perulangan di step 3 selama "murid" masih dibawah 40, dan jika "murid" sudah 40, maka lanjut ke step 5
+    3. guru memeriksa kuku murid satu per satu . jika murid memiliki kuku panjang, maka guru akan menghukumnya.
+    4. jika murid memiliki kuku yang tidak panjang, maka guru akan memujinya.
+    5. pemeriksaan kuku selesai.
