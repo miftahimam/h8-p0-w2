@@ -1,21 +1,22 @@
-var nama='imam';
-var peran='';
+var nama='imammatot';
+var peran='Penyihir';
 
-if(nama == '' && peran=='') {
+
+if(nama == '') {
   console.log('nama harus diisi');
 }
-else if(nama=='imam' && peran=='') {
+else if(peran=='') {
   console.log('Halo ' +nama + ', Pilih peranmu untuk memulai game!');
 }
-else if(nama=='nina' && peran=='kesatria') {
+else if(peran == 'Ksatria') {
   console.log('Selamat datang di Dunia Proxytia,' + nama);
   console.log('Halo' + peran + nama +', kamu dapat menyerang dengan senjatamu!')
 }
-else if(nama=='danu' && peran=='tabib') {
+else if(peran == 'Tabib') {
   console.log('Selamat datang di Dunia Proxytia, ' + nama);
-  console.log('Halo' +peran+nama+', kamu akan membantu temanmu yang terluka.');
+  console.log('Halo' +' '+peran +' '+nama+', kamu akan membantu temanmu yang terluka.');
 }
-else if(nama=='zero' && peran=='penyihir') {
+else if(peran == 'Penyihir') {
   console.log('Selamat datang di Dunia Proxytia,'+nama);
-  console.log('Halo ' + peran + nama + ', ciptakan keajaiban yang membantu kemenanganmu!');
+  console.log('Halo ' +' '+ peran +' '+  nama + ', ciptakan keajaiban yang membantu kemenanganmu!');
 }
