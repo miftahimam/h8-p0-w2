@@ -47,12 +47,12 @@
      JAWABAN :
 
      PSEUDOCODE ;
-     STORE "year" with any year
-        IF "year" modulo 4 = 0
+     STORE "year" with any value
+        IF "year" modulo 4 equals to 0
             then 
-               if "year" modulo 100 = 0
+               if "year" modulo 100 equals to 0
                then
-               if "year" modulo 400 = 0
+               if "year" modulo 400 equals to 0
                then
                 DISPLAY leap_year
                ELSE
