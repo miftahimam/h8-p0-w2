@@ -1,17 +1,18 @@
 var tanggal=30;
-var bulan=3;
-var tahun=2100;
+var bulan=12;
+var tahun=2300;
 
-if (tanggal < 1 || tanggal > 31) {
-    console.log('masukkan tanggal dengan benar');
-} else if (tahun > 2200 || tahun < 1900) {
-  console.log('masukkan tahun dengan benar');
+if ((tanggal < 1 || tanggal > 31) || (tahun > 2200 || tahun < 1900) || (bulan < 1 || bulan > 12)) {
+    console.log('masukkan tanggal / bulan / tahun dengan benar');
+
 }
+//  else if (tahun > 2200 || tahun < 1900) {
+//   console.log('masukkan tahun dengan benar');
+// }
 
   else {
 
 switch(bulan) {
-
   case 1 :
 
     bulan = 'januari'; 
@@ -77,7 +78,9 @@ switch(bulan) {
 
   default:  
 
-    console.log('bulan salah'); 
+  
+    console.log('bulan salah');
+
 
     break;
 
