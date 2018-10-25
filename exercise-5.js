@@ -41,25 +41,28 @@ var fifthWord4Length = fifthWord4.length;
 /*jawaban nomor 1*/
 console.log(word +' '+ second +' ' +third + ' '+ fourth +' ' + fifth +' '+ sixth + ' ' + seventh );
 
+console.log()
 /*jawaban nomor 2*/
-console.log('First Word: ' + exampleFirstWord);
-console.log('Second Word: ' + secondWord);
-console.log('Third Word: ' + thirdWord);
-console.log('Fourth Word: ' + fourthWord);
-console.log('Fifth Word: ' + fifthWord);
+console.log('First Word : ' + exampleFirstWord);
+console.log('Second Word:' + secondWord);
+console.log('Third Word : ' + thirdWord);
+console.log('Fourth Word:' + fourthWord);
+console.log('Fifth Word :' + fifthWord);
 
+console.log()
 /*jawaban nomor 3*/
-console.log('First Word3: ' + exampleFirstWord3);
+console.log('First Word3 : ' + exampleFirstWord3);
 console.log('Second Word3: ' + secondWord3);
-console.log('Third Word3: ' + thirdWord3);
+console.log('Third Word3 : ' + thirdWord3);
 console.log('Fourth Word3: ' + fourthWord3);
-console.log('Fifth Word3: ' + fifthWord3);
+console.log('Fifth Word3 : ' + fifthWord3);
  
 
+console.log()
 /*jawaban nomor 4*/
-console.log('First Word4: ' + exampleFirstWord4 + ', with length: ' + firstWordLength);
+console.log('First Word4 : ' + exampleFirstWord4 + ', with length: ' + firstWordLength);
 console.log('Second Word4: ' + secondWord4 + ', with length: ' + secondWord4Length);
-console.log('Third Word4: ' + thirdWord4 + ', with length: ' + thirdWord4Length);
+console.log('Third Word4 : ' + thirdWord4 + ', with length: ' + thirdWord4Length);
 console.log('Fourth Word4: ' + fourthWord4 + ', with length: ' + fourthWord4Length);
-console.log('Fifth Word4: ' + fifthWord4 + ', with length: ' + fifthWord4Length);
+console.log('Fifth Word4 : ' + fifthWord4 + ', with length: ' + fifthWord4Length);
 
