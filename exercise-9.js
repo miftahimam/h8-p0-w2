@@ -21,7 +21,7 @@ console.log(hasilPerkalian);
 
 // nomor 3
 function processSentence(name,age,address,hobby) {
-  return name + age + address + hobby;
+  return "nama saya" +' '+ name + ' ' + ", umur saya" +' '+ age +' ' + ", alamat saya" +' '+ address +' '+ ", hobby saya" +' '+ hobby;
 
 }
 
@@ -31,4 +31,4 @@ var address = "Jln. Malioboro, Yogjakarta";
 var hobby = "gaming";
 
 var fullSentence = processSentence(name,age,address,hobby);
-console.log("nama saya" +' '+ name + ' ' + ", umur saya" +' '+ age +' ' + ", alamat saya" +' '+ address +' '+ ", hobby saya" +' '+ hobby); // Menampilkan "Nama saya Agus, umur saya 30 tahun, alamat saya di Jln. Malioboro, Yogjakarta, dan saya punya hobby yaitu gaming!"
+console.log(fullSentence); // Menampilkan "Nama saya Agus, umur saya 30 tahun, alamat saya di Jln. Malioboro, Yogjakarta, dan saya punya hobby yaitu gaming!"
