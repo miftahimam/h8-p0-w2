@@ -1,6 +1,7 @@
 var nama='imammatot';
-var peran='Penyihir';
+var peran='baja hitam';
 
+//berikan berikan else untuk peran yang tidak tercantum
 
 if(nama == '') {
   console.log('nama harus diisi');
@@ -19,4 +20,7 @@ else if(peran == 'Tabib') {
 else if(peran == 'Penyihir') {
   console.log('Selamat datang di Dunia Proxytia,'+nama);
   console.log('Halo ' +' '+ peran +' '+  nama + ', ciptakan keajaiban yang membantu kemenanganmu!');
+}else{
+  console.log('peran tidak tercantum');
+  
 }
